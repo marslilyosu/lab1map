@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
         <style>
         #map {
-            width: 1687px;
-            height: 1620px;
+            width: 2814px;
+            height: 1914px;
         }
         </style>
         <title></title>
@@ -247,7 +247,7 @@
                 interactive: true,
             }
                     break;
-                default:
+                case 'NULL':
                     return {
                 pane: 'pane_ne_10m_airports_1',
                 radius: 8.0,
@@ -263,7 +263,7 @@
                 interactive: true,
             }
                     break;
-                default:
+                case 'NULL':
                     return {
                 pane: 'pane_ne_10m_airports_1',
                 radius: 8.0,
